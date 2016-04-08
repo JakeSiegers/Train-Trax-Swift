@@ -8,20 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		233AC5DD1CB74FBA004E3FE0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 233AC5DC1CB74FBA004E3FE0 /* AppDelegate.swift */; };
-		233AC5DF1CB74FBA004E3FE0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 233AC5DE1CB74FBA004E3FE0 /* ViewController.swift */; };
+		233AC5DF1CB74FBA004E3FE0 /* SearchResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 233AC5DE1CB74FBA004E3FE0 /* SearchResultsViewController.swift */; };
 		233AC5E21CB74FBA004E3FE0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 233AC5E01CB74FBA004E3FE0 /* Main.storyboard */; };
 		233AC5E41CB74FBA004E3FE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 233AC5E31CB74FBA004E3FE0 /* Assets.xcassets */; };
 		233AC5E71CB74FBA004E3FE0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 233AC5E51CB74FBA004E3FE0 /* LaunchScreen.storyboard */; };
+		239A3AA31CB75F9800C674F3 /* APIController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 239A3AA21CB75F9800C674F3 /* APIController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		233AC5D91CB74FBA004E3FE0 /* TrainTrax.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrainTrax.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		233AC5DC1CB74FBA004E3FE0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		233AC5DE1CB74FBA004E3FE0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		233AC5DE1CB74FBA004E3FE0 /* SearchResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultsViewController.swift; sourceTree = "<group>"; };
 		233AC5E11CB74FBA004E3FE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		233AC5E31CB74FBA004E3FE0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		233AC5E61CB74FBA004E3FE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		233AC5E81CB74FBA004E3FE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		239A3AA21CB75F9800C674F3 /* APIController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = APIController.swift; path = ../APIController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,8 +56,9 @@
 		233AC5DB1CB74FBA004E3FE0 /* TrainTrax */ = {
 			isa = PBXGroup;
 			children = (
+				239A3AA21CB75F9800C674F3 /* APIController.swift */,
 				233AC5DC1CB74FBA004E3FE0 /* AppDelegate.swift */,
-				233AC5DE1CB74FBA004E3FE0 /* ViewController.swift */,
+				233AC5DE1CB74FBA004E3FE0 /* SearchResultsViewController.swift */,
 				233AC5E01CB74FBA004E3FE0 /* Main.storyboard */,
 				233AC5E31CB74FBA004E3FE0 /* Assets.xcassets */,
 				233AC5E51CB74FBA004E3FE0 /* LaunchScreen.storyboard */,
@@ -135,8 +138,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				233AC5DF1CB74FBA004E3FE0 /* ViewController.swift in Sources */,
+				233AC5DF1CB74FBA004E3FE0 /* SearchResultsViewController.swift in Sources */,
 				233AC5DD1CB74FBA004E3FE0 /* AppDelegate.swift in Sources */,
+				239A3AA31CB75F9800C674F3 /* APIController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +290,7 @@
 				233AC5ED1CB74FBA004E3FE0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
