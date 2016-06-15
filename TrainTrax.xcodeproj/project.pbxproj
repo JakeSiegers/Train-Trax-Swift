@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		230444E61CCC3C900018D897 /* TrainAjax.swift in Sources */ = {isa = PBXBuildFile; fileRef = 230444E51CCC3C900018D897 /* TrainAjax.swift */; };
+		230444E81CCC44000018D897 /* Blank52.png in Resources */ = {isa = PBXBuildFile; fileRef = 230444E71CCC44000018D897 /* Blank52.png */; };
+		230444EA1CCC4B0F0018D897 /* Album.swift in Sources */ = {isa = PBXBuildFile; fileRef = 230444E91CCC4B0F0018D897 /* Album.swift */; };
+		230444EC1CCC4E2B0018D897 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 230444EB1CCC4E2B0018D897 /* DetailsViewController.swift */; };
 		233AC5DD1CB74FBA004E3FE0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 233AC5DC1CB74FBA004E3FE0 /* AppDelegate.swift */; };
 		233AC5DF1CB74FBA004E3FE0 /* SearchResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 233AC5DE1CB74FBA004E3FE0 /* SearchResultsViewController.swift */; };
 		233AC5E21CB74FBA004E3FE0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 233AC5E01CB74FBA004E3FE0 /* Main.storyboard */; };
@@ -16,6 +20,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		230444E51CCC3C900018D897 /* TrainAjax.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrainAjax.swift; sourceTree = "<group>"; };
+		230444E71CCC44000018D897 /* Blank52.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Blank52.png; sourceTree = "<group>"; };
+		230444E91CCC4B0F0018D897 /* Album.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Album.swift; sourceTree = "<group>"; };
+		230444EB1CCC4E2B0018D897 /* DetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 		233AC5D91CB74FBA004E3FE0 /* TrainTrax.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrainTrax.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		233AC5DC1CB74FBA004E3FE0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		233AC5DE1CB74FBA004E3FE0 /* SearchResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultsViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +64,7 @@
 		233AC5DB1CB74FBA004E3FE0 /* TrainTrax */ = {
 			isa = PBXGroup;
 			children = (
+				230444E71CCC44000018D897 /* Blank52.png */,
 				239A3AA21CB75F9800C674F3 /* APIController.swift */,
 				233AC5DC1CB74FBA004E3FE0 /* AppDelegate.swift */,
 				233AC5DE1CB74FBA004E3FE0 /* SearchResultsViewController.swift */,
@@ -63,6 +72,9 @@
 				233AC5E31CB74FBA004E3FE0 /* Assets.xcassets */,
 				233AC5E51CB74FBA004E3FE0 /* LaunchScreen.storyboard */,
 				233AC5E81CB74FBA004E3FE0 /* Info.plist */,
+				230444E51CCC3C900018D897 /* TrainAjax.swift */,
+				230444E91CCC4B0F0018D897 /* Album.swift */,
+				230444EB1CCC4E2B0018D897 /* DetailsViewController.swift */,
 			);
 			path = TrainTrax;
 			sourceTree = "<group>";
@@ -126,6 +138,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				233AC5E71CB74FBA004E3FE0 /* LaunchScreen.storyboard in Resources */,
+				230444E81CCC44000018D897 /* Blank52.png in Resources */,
 				233AC5E41CB74FBA004E3FE0 /* Assets.xcassets in Resources */,
 				233AC5E21CB74FBA004E3FE0 /* Main.storyboard in Resources */,
 			);
@@ -138,9 +151,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				230444E61CCC3C900018D897 /* TrainAjax.swift in Sources */,
 				233AC5DF1CB74FBA004E3FE0 /* SearchResultsViewController.swift in Sources */,
 				233AC5DD1CB74FBA004E3FE0 /* AppDelegate.swift in Sources */,
 				239A3AA31CB75F9800C674F3 /* APIController.swift in Sources */,
+				230444EA1CCC4B0F0018D897 /* Album.swift in Sources */,
+				230444EC1CCC4E2B0018D897 /* DetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,6 +270,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TrainTrax/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jakesiegers.TrainTrax;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -265,6 +282,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TrainTrax/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jakesiegers.TrainTrax;
 				PRODUCT_NAME = "$(TARGET_NAME)";
